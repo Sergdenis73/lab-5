@@ -16,7 +16,7 @@ int main() {
     
     for (int i = 0; i < M; i++) {
         double max = C[i][0];
-        for (int j = 1; j < N; j++) {
+        for (int j = 1; j < N; j+=1) {
             if (C[i][j] > max) {
                 max = C[i][j];
             }
