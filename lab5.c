@@ -4,6 +4,7 @@
 #define COLS 4
 
 int main() {
+    system("chcp 65001");
     double A[ROWS][COLS] = {
         {1.5, -2.3, 4.0, 0.0},
         {-1.7, 3.2, 5.1, -8.4},
